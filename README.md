@@ -20,20 +20,20 @@ End the program.
 ## PROGRAM:
 ```
 #To write a python program for reading content from a CSV file.
-#Developed by: SOWMYA BADHONI
+#Developed by: SOWMYA BADONI
 #Register Number: 212223230211
 
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("Number of rows:",len(df.axes[0]))
-print("Number of columns:",len(df.axes[1]))
+with open("text1.txt","r") as fp:
+    msg1=fp.read()
+with open("copytxt","w") as fp1:
+    fp1.write(msg1)
+
 
 ```
 ### OUTPUT:
-![329831705-6b92d7bc-4917-445d-815a-9296bdd18ab1](https://github.com/sowmya-badoni/Copy-File/assets/152136324/d74240c9-016e-4e9f-a52a-51fb364c6816)
+![copy1](https://github.com/sowmya-badoni/Copy-File/assets/152136324/43428ed0-7922-472c-bf04-3a0bcd077aa4)
 
+![copy2](https://github.com/sowmya-badoni/Copy-File/assets/152136324/a5e85f02-9e15-43c9-a4b5-29db2c555bca)
 
 
 ## RESULT:
